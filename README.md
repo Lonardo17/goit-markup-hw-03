@@ -1,2 +1,3 @@
-# goit-markup-hw-02
-Основы CSS. Селекторы и цвет. текст и шрифты.
+# goit-markup-hw-03
+
+Блочная модель.Flexbox
