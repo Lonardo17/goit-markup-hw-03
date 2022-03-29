@@ -10,8 +10,8 @@
   --primary-text-color: #757575;
   --footer-text-color: rgba(255, 255, 255, 0.6);
 }
-.test {
-  background-color: tomato;
+p {
+  margin: 0;
 }
 h1,
 h2,
@@ -19,6 +19,7 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0;
   color: var(--header-text-color);
 }
 button {
@@ -36,17 +37,17 @@ body {
 ul {
   list-style-type: none;
   padding-left: 0px;
+  margin: 0;
 }
 nav {
   display: flex;
   align-items: center;
 }
-.container {
-  align-content: center;
 
+.container {
   width: 1200px;
   padding: 0px 15px;
-  margin: 94px auto 0px auto;
+  margin: 0 auto;
 }
 .container.header {
   margin: 15px auto;
@@ -124,6 +125,7 @@ header {
 
 /* first section */
 .hero-title {
+  margin: 0 0 30px 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -149,6 +151,11 @@ header {
 }
 
 /* second section */
+.advantage {
+  align-items: center;
+  padding-top: 89px;
+  padding-bottom: 94px;
+}
 .advantage-list li {
   width: 270px;
   /* height: 101px; */
@@ -161,6 +168,7 @@ header {
   display: flex;
 }
 .advantage-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -172,6 +180,12 @@ header {
 }
 
 /* third section & forth section */
+.working {
+  padding-bottom: 188px;
+}
+.working-title {
+  margin-bottom: 50px;
+}
 .working-title,
 .team-title {
   font-weight: 700;
@@ -189,8 +203,11 @@ header {
   margin-right: 30px;
 }
 /* forth section */
-.team .container {
-  margin-top: 188px;
+.team {
+  padding-bottom: 94px;
+}
+.padding {
+  padding: 30px 0;
 }
 .team-list {
   display: flex;
@@ -210,20 +227,19 @@ header {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin: 30px 0 10px 0;
+  margin-bottom: 10px;
 }
 .team p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin: 0 0 30px 0;
 }
 /* footer */
 footer {
   background: var(--background-hero);
+  padding: 60px 15px;
 }
 footer .container {
-  padding: 60px 15px;
 }
 footer address {
   margin-top: 20px;
@@ -250,6 +266,13 @@ footer address {
   color: var(--second-text-color);
 }
 
+/*------ page2---- */
+.projeckt {
+  padding: 94px 0 94px 0;
+}
+.padding2 {
+  padding: 20px 24px;
+}
 .filter {
   display: flex;
   justify-content: center;
@@ -259,7 +282,6 @@ footer address {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 4px;
   padding: 6px 22px;
@@ -279,10 +301,8 @@ footer address {
   margin: 0;
 }
 .list li {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 4px;
-  margin: 0 30px 30px 0;
+  border: solid 1px #eeeeee;
+  margin: 0 25.5px 30px 0;
 }
 .list li:nth-child(3n) {
   margin-right: 0px;
