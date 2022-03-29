@@ -301,8 +301,8 @@ footer address {
   margin: 0;
 }
 .list li {
-  border: solid 1px #eeeeee;
-  margin: 0 25.5px 30px 0;
+  outline: solid 1px #eeeeee;
+  margin: 0 30px 30px 0;
 }
 .list li:nth-child(3n) {
   margin-right: 0px;
