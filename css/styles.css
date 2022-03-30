@@ -50,7 +50,7 @@ nav {
   margin: 0 auto;
 }
 .container.header {
-  margin: 15px auto;
+  align-items: center;
   justify-content: space-between;
 }
 /* logo */
@@ -73,6 +73,7 @@ nav {
 }
 /* head */
 header {
+  padding: 25px 0px;
   background: var(--background-color);
 }
 /* navigation */
@@ -181,7 +182,7 @@ header {
 
 /* third section & forth section */
 .working {
-  padding-bottom: 188px;
+  padding-bottom: 94px;
 }
 .working-title {
   margin-bottom: 50px;
@@ -205,6 +206,7 @@ header {
 /* forth section */
 .team {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .padding {
   padding: 30px 0;
@@ -237,12 +239,13 @@ header {
 /* footer */
 footer {
   background: var(--background-hero);
-  padding: 60px 15px;
-}
-footer .container {
+  padding: 60px 0;
 }
 footer address {
   margin-top: 20px;
+}
+.indent:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-list {
@@ -271,6 +274,7 @@ footer address {
   padding: 94px 0 94px 0;
 }
 .padding2 {
+  border: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 .filter {
@@ -301,7 +305,6 @@ footer address {
   margin: 0;
 }
 .list li {
-  outline: solid 1px #eeeeee;
   margin: 0 30px 30px 0;
 }
 .list li:nth-child(3n) {
